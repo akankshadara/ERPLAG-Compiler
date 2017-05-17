@@ -12,5 +12,11 @@ We have implemented a compiler for this language in a pipelined manner with its 
 This project was a part of the course Compiler Construction at BITS Pilani, under Dr. Vandana Aggarwal.
 
 **Authors**
-* [Akanksha Dara](https://github.com/akankshadara)
-* [Divakar Verma](https://github.com/vdivakar)
+ * [Akanksha Dara](https://github.com/akankshadara)
+ * [Divakar Verma](https://github.com/vdivakar)
+ 
+**Usage**
+```{r, engine='bash', count_lines}
+To compile: make
+To execute: ./compiler testcase.txt code.asm
+```
